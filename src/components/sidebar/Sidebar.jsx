@@ -22,10 +22,10 @@ const variants = {
             damping: 40,
         }
     }
-}
+};
 
 
-function Sidebar() {
+const Sidebar = () => {
 
     const [open, setOpen] = useState(false)
 
@@ -36,7 +36,7 @@ function Sidebar() {
             </motion.div>
             <ToggleButton setOpen={setOpen} />
         </motion.div>
-    )
-}
+    );
+};
 
 export default Sidebar
