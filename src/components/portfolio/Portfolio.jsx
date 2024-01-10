@@ -21,12 +21,6 @@ const items = [
     img: '/project-blog.png',
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
-  {
-    id: 4,
-    title: "Music App",
-    img: '/project-kanban.png',
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  },
 ];
 
 const Single = ({ item }) => {
