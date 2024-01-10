@@ -13,7 +13,7 @@ const Navbar = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
             >
-                PK Dev
+                <img className="logo" src="/pk.png" alt='Logo' />
             </motion.span>
             <div className="social">
                 <a href="#"><img src="/github-btn.png" alt='' /></a>
